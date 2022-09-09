@@ -10,3 +10,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    margin: 20px;
+    padding: 20px;
+}
+.contenedor {
+    display: flex;
+    background-color:#0a0a0a;
+    padding: 10px;
+
+}
+
+.cardCounter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 0.5px solid rgb(53, 52, 52);
+    width: 200px;
+    height: 200px;
+    font-size: 6rem;
+    font-weight: bolder;
+    color: aliceblue;
+}
